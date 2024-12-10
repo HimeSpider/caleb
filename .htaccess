@@ -1,0 +1,6 @@
+AuthUserFile /Rmheade/rmheade.github.io/.htpasswd
+AuthType Basic
+AuthName "My Secret Folder"
+<Files "index.html">
+  Require valid-user
+</Files>
